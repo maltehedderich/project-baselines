@@ -9,7 +9,7 @@
 - Every change MUST serve a current user, operator, or maintainer need. Deliver the smallest complete change that satisfies it.
 - Bug fixes MUST stay focused on the defect; unrelated cleanup is separate work.
 - Generalize only for current variation: parameters, options, generic types, base classes, and extension points MUST serve at least two current callers or variants. Extracting a well-named function to separate intention from implementation is always allowed; inline wrappers that add neither a name nor a boundary. When an abstraction accumulates flags for diverging callers, inline it again.
-- Add dependencies and configuration only for a concrete present requirement. Hypothetical consumers or future scale do not justify complexity.
+- Add configuration only for a concrete present requirement. Hypothetical consumers or future scale do not justify complexity.
 - Follow established codebase patterns. A second way to do something already done requires an ADR and a plan to converge.
 
 ### II. Modular Architecture
@@ -39,8 +39,8 @@
 
 - Secrets and personal data MUST NOT appear in the repository, logs, error reports, or analytics.
 - Authorization MUST be enforced server-side on every operation and deny by default. Credentials get only the permissions they need.
-- Collect and keep only the personal data a current feature needs, with a defined retention period.
-- Dependencies MUST be pinned by lockfile and scanned for known vulnerabilities. Prefer established, maintained packages and confirm each is the intended one before adding it.
+- Keep dependencies few. Each one is code you run with full trust and must keep updated. Prefer the standard library, the platform, and existing dependencies. Add a new one only when it replaces substantial or hard-to-get-right code, such as cryptography, parsing, or protocol handling.
+- Before adding a dependency, confirm it is the intended package and is maintained. Choose a version with no known vulnerabilities and pin it.
 
 ### V. Test According to Risk
 
