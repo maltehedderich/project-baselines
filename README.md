@@ -7,6 +7,9 @@ The configurations, guidelines, and files I start new projects from. When a base
 | File | What it is |
 | --- | --- |
 | [`.specify/memory/constitution.md`](.specify/memory/constitution.md) | Shared engineering constitution: rules for scope, architecture, contracts, security, testing, and delivery. |
+| [Tooling and coding setup](docs/tooling/README.md) | Development tools, agent tools, Zed, Herdr, and terminal setup, with installation commands. |
+| [Zed settings](configs/zed/settings.json) | Editor appearance, formatting, diagnostics, Git, and agent settings. |
+| [Herdr keybindings](configs/herdr-app/keys.json) and [settings](configs/herdr-app/settings.json) | macOS shortcuts, zoom, sounds, and terminal contrast. |
 
 ## Adopt the constitution
 

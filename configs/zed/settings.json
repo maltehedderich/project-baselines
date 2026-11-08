@@ -1,0 +1,100 @@
+{
+  "auto_install_extensions": {
+    "material-icon-theme": true,
+    "night-owlz": true
+  },
+  "icon_theme": "Material Icon Theme",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Night Owl Dark"
+  },
+  "cli_default_open_behavior": "existing_window",
+  "format_on_save": "on",
+  "preferred_line_length": 120,
+  "wrap_guides": [120],
+  "show_wrap_guides": true,
+  "soft_wrap": "none",
+  "remove_trailing_whitespace_on_save": true,
+  "ensure_final_newline_on_save": true,
+  "auto_indent": "syntax_aware",
+  "auto_indent_on_paste": true,
+  "use_on_type_format": true,
+  "show_edit_predictions": true,
+  "auto_signature_help": true,
+  "show_whitespaces": "selection",
+  "vertical_scroll_margin": 6,
+  "scroll_beyond_last_line": "off",
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false
+  },
+  "diagnostics": {
+    "button": true,
+    "include_warnings": true,
+    "inline": {
+      "enabled": true,
+      "max_severity": "warning"
+    }
+  },
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 500
+    }
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "all",
+    "show_close_button": "hover",
+    "activate_on_close": "history"
+  },
+  "minimap": {
+    "show": "always",
+    "current_line_highlight": "line"
+  },
+  "title_bar": {
+    "show_sign_in": false,
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_onboarding_banner": false,
+    "show_branch_name": true,
+    "show_worktree_name": true,
+    "show_project_items": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "show_call_status_icon": false,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "agent": {
+    "default_profile": "write",
+    "commit_message_instructions": "Always use Conventional Commits. Format: <type>(<scope>): <description>. Allowed types: feat, fix, refactor, docs, test, chore, build, ci, perf, style. Use lowercase. Keep the subject imperative and concise. Omit the scope if no clear scope exists. For breaking changes, add ! before the colon."
+  },
+  "markdown_preview": {
+    "max_width": 1200
+  }
+}
