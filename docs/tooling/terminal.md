@@ -4,6 +4,8 @@
 
 The shell setup is zsh with individual plugins and a Starship prompt. Git shortcuts are defined directly in the shell configuration. There is no Oh My Zsh framework to load.
 
+The example below includes a small set of Git shortcuts. The [complete alias file](../../configs/linux/shell/git.zsh) records the Mac's full set, including `gl` for `git pull` and `gp` for `git push`. The Linux bootstrap installs that full set.
+
 ## What each part does
 
 | Tool | Benefit in this setup |
@@ -69,6 +71,9 @@ alias gcmsg='git commit --message'
 alias gd='git diff'
 alias gdca='git diff --cached'
 alias glog='git log --oneline --decorate --graph'
+alias gl='git pull'
+alias gp='git push'
+alias gco='git checkout'
 
 source "$HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 source "$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"

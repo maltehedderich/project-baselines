@@ -6,8 +6,9 @@
 | [Agent tools](agent-tooling.md) | Context7, Brave Search CLI, Playwright CLI, GitHub CLI, OpenCommit |
 | [Desktop apps](desktop-apps.md) | Zed, Herdr |
 | [Terminal setup](terminal.md) | zsh, Starship, Atuin, zoxide, fuzzy completion, fonts, and shortcuts |
+| [Linux development host](linux.md) | Reusable Ubuntu setup for remote shells, runtimes, and agent tools |
 
-The commands target macOS with zsh. Install commands and upstream documentation were checked on 2026-11-08. The terminal guide records the shell configuration inspected that day.
+The desktop guides target macOS with zsh. The Linux guide covers remote development hosts accessed from the Mac. Install commands and upstream documentation were checked on 2026-11-08. The terminal guide records the shell configuration inspected that day.
 
 ## Start with Homebrew
 

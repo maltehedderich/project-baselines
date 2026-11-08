@@ -1,0 +1,79 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@brave/brave-search-cli':
+        specifier: 1.7.0
+        version: 1.7.0
+
+packages:
+
+  '@brave/brave-search-cli-darwin-arm64@1.7.0':
+    resolution: {integrity: sha512-xEJIi9+dCvJAb3ecoD2NtFr3Gu7HB12lUWEqeWNeFRpDfaV6Yy7kzQmmEYpYzs/okIwK5ynrFKHVgsKwBv/8sw==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@brave/brave-search-cli-darwin-x64@1.7.0':
+    resolution: {integrity: sha512-XSMjvmmujPnIu+dQgj9kqTarbmzxO1sHOHTZr0bgUoWL8n32NOKBXX1S8Nb9EgmvNyB6F5Vg/30/Af5ENcyAOg==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@brave/brave-search-cli-linux-arm64@1.7.0':
+    resolution: {integrity: sha512-iAfkGiSKySM63OkK3f4LUs66UyAcLsT8tqBf5oJjNMhq4dL1DkQ5xfqP+mdK2IyxzRbZG7hBEQ9XMHRqqD5mQA==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@brave/brave-search-cli-linux-x64@1.7.0':
+    resolution: {integrity: sha512-G3bH2isGFLKSPKDMgNMeQFP0FHm0pasirfLGdGYn44ZBMbhlKZP/e+QIWALsdK+zJEDimHsQ8oaTz27llxYjyA==}
+    cpu: [x64]
+    os: [linux]
+
+  '@brave/brave-search-cli-win32-arm64@1.7.0':
+    resolution: {integrity: sha512-5lO2mvSZWpbM4aQPZ0+ic9YjztmBvHTca9upojCe7UaghojK2S6VHiujehIdTj3wAGRDxQPs7X6HYWObKRxlmw==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@brave/brave-search-cli-win32-x64@1.7.0':
+    resolution: {integrity: sha512-+I6eWughq8iwRl9bHbAJZhL5N6NaCiK8J0t4xjYqxaRNGLwotptPE4cKXSu2aE7ItKLUzNOzrFl5bLErXkoUyg==}
+    cpu: [x64]
+    os: [win32]
+
+  '@brave/brave-search-cli@1.7.0':
+    resolution: {integrity: sha512-FC3rY3lu1JA2eiWya3V3EsP/DDivyy67yo9tMATDdggFF9Lr1AgSgrZf+ocbHhpWb67nCBC0cC+PETLjSfXtLg==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+snapshots:
+
+  '@brave/brave-search-cli-darwin-arm64@1.7.0':
+    optional: true
+
+  '@brave/brave-search-cli-darwin-x64@1.7.0':
+    optional: true
+
+  '@brave/brave-search-cli-linux-arm64@1.7.0':
+    optional: true
+
+  '@brave/brave-search-cli-linux-x64@1.7.0':
+    optional: true
+
+  '@brave/brave-search-cli-win32-arm64@1.7.0':
+    optional: true
+
+  '@brave/brave-search-cli-win32-x64@1.7.0':
+    optional: true
+
+  '@brave/brave-search-cli@1.7.0':
+    optionalDependencies:
+      '@brave/brave-search-cli-darwin-arm64': 1.7.0
+      '@brave/brave-search-cli-darwin-x64': 1.7.0
+      '@brave/brave-search-cli-linux-arm64': 1.7.0
+      '@brave/brave-search-cli-linux-x64': 1.7.0
+      '@brave/brave-search-cli-win32-arm64': 1.7.0
+      '@brave/brave-search-cli-win32-x64': 1.7.0
