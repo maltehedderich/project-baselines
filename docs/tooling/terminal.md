@@ -81,14 +81,6 @@ source "$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.z
 
 Add [mise activation](development.md#mise) before the final two plugin lines if using mise. Open a new terminal after saving.
 
-The inspected machine also has an fnm hook for Node.js and a direnv hook for directory-specific environments. Those are existing setup details. When moving a shell to mise, remove the fnm hook once mise owns its Node installation, and review existing `.envrc` files before removing direnv. For a shell that still needs direnv:
-
-```sh
-brew install direnv
-```
-
-Its existing hook is `eval "$(direnv hook zsh)"`, placed before the final plugin lines. See [direnv's shell setup](https://direnv.net/docs/hook.html).
-
 ## Prompt
 
 Create `~/.config` if needed:
